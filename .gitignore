@@ -1,0 +1,13 @@
+App_Data
+[Bb]in
+[Oo]bj
+[Tt]est[Rr]esults
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+NuGet.exe
+_[Ss]cripts
+*.exe
+*.ncrunchsolution
+*.dot[Cc]over
