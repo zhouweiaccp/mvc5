@@ -9,6 +9,10 @@ using System.Web.Mvc.Properties;
 
 namespace System.Web.Mvc
 {
+    /// <summary>
+    /// 元数据1 
+    /// CachedDataAnnotationsModelMetadataProvider 实现类
+    /// </summary>
     public class CachedDataAnnotationsModelMetadata : CachedModelMetadata<CachedDataAnnotationsMetadataAttributes>
     {
         private bool _isEditFormatStringFromCache;

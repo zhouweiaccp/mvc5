@@ -1,0 +1,3 @@
+﻿IMetadataAware
+
+Model元数据 扩展体现在ModelMetadataProvider 自定义上  ，实现通过CacheDataAnnotationsModelMetadataProvider来实现
