@@ -11,6 +11,7 @@ namespace System.Web.Mvc
 
         public virtual void OnActionExecuting(ActionExecutingContext filterContext)
         {
+           
         }
 
         public virtual void OnActionExecuted(ActionExecutedContext filterContext)

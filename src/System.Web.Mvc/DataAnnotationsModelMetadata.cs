@@ -18,7 +18,10 @@ namespace System.Web.Mvc
         {
             _displayColumnAttribute = displayColumnAttribute;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         protected override string GetSimpleDisplayText()
         {
             if (Model != null)

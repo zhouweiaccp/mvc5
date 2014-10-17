@@ -7,6 +7,10 @@ using System.Runtime.Caching;
 
 namespace System.Web.Mvc
 {
+    /// <summary>
+    /// 元数据2  实现类
+    /// </summary>
+    /// <typeparam name="TModelMetadata"></typeparam>
     public abstract class CachedAssociatedMetadataProvider<TModelMetadata> : AssociatedMetadataProvider
         where TModelMetadata : ModelMetadata
     {

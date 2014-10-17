@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="System.Web.Mvc.CachedAssociatedMetadataProvider&lt;TModelMetadata&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIECIBAAAAGAEAAAAAAAAAiAAEgAAAAAAIAAAAAA=</HashCode>
+      <FileName>CachedAssociatedMetadataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.CachedDataAnnotationsMetadataAttributes" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAMgAAAAABAAAQAAACAAAAAAEAEKAAAAAAA=</HashCode>
+      <FileName>CachedDataAnnotationsMetadataAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.CachedDataAnnotationsModelMetadata" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAADgCRQgCgAAAAYAEQACCBAAAAAAgAA=</HashCode>
+      <FileName>CachedDataAnnotationsModelMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.CachedDataAnnotationsModelMetadataProvider" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CachedDataAnnotationsModelMetadataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.CachedModelMetadata&lt;TPrototypeCache&gt;" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="3" />
+    <InheritanceLine Type="System.Web.Mvc.ModelMetadata" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.75" />
+        <Point X="5.5" Y="2.406" />
+        <Point X="5.5" Y="2.406" />
+        <Point X="5.5" Y="1.439" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAUAELjSgjEiAAD/G5TgCAw8EgYQEAACKFJBAAEAoYQ=</HashCode>
+      <FileName>CachedModelMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.DataAnnotationsModelMetadata" Collapsed="true">
+    <Position X="2" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAgAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAnnotationsModelMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.DataAnnotationsModelMetadataProvider" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>DataAnnotationsModelMetadataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.DataAnnotationsModelValidator" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAACCAAAAAAAAAAAgAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>DataAnnotationsModelValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.DataAnnotationsModelValidator&lt;TAttribute&gt;" Collapsed="true">
+    <Position X="7" Y="2.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAnnotationsModelValidatorOfTAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.DataAnnotationsModelValidatorProvider" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAGoAQAQAAIAAAg0AKCICACCAAQEBQAAAAQEAAAAAQ=</HashCode>
+      <FileName>DataAnnotationsModelValidatorProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.ModelMetadata" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQFEEBSSgBImMAAREhaAAAAgwCAQEAAIIk4BAAFCAYQ=</HashCode>
+      <FileName>ModelMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.ModelMetadataProvider" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ModelMetadataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.ModelMetadataProviders" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAQACAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ModelMetadataProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="System.Web.Mvc.DataAnnotationsModelValidationFactory" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAAAA=</HashCode>
+      <FileName>DataAnnotationsModelValidatorProvider.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="System.Web.Mvc.DataAnnotationsValidatableObjectAdapterFactory" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>DataAnnotationsModelValidatorProvider.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
