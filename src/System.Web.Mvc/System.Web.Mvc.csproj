@@ -609,6 +609,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="1_ModelMeta.cd" />
+    <None Include="5_2ValueProvider.cd" />
     <None Include="JavaScript\jquery.unobtrusive-ajax.js" />
     <None Include="JavaScript\jquery.validate.unobtrusive.js" />
     <None Include="packages.config" />
