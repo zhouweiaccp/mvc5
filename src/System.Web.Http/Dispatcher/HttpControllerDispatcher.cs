@@ -12,7 +12,12 @@ using System.Web.Http.Controllers;
 using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Properties;
 using System.Web.Http.Routing;
-
+/// <summary>
+/// 知识我们了解到在ASP.NET Web API管道的最后一个消息处理程序实际是HttpControllerDispatcher类型
+/// ，在Web API框架调用HttpControllerDispatcher类型的SendAsync()
+/// 方法时实际是调用了HttpControllerDispatcher类型的一个私有方法SendAsyncInternal()，而APIController就是在这个私有方法中生成的，
+/// 当然不是由这个私有方法来生成它的。下面我们就来看一下SendAsyncInternal()的基础实现。
+/// </summary>
 namespace System.Web.Http.Dispatcher
 {
     /// <summary>
