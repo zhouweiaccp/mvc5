@@ -1,4 +1,16 @@
-﻿// Copyright (c) Microsoft Open Technologies, Inc. All rights reserved. See License.txt in the project root for license information.
+﻿// ***********************************************************************
+// Assembly         : System.Web.Http
+// Author           : qd01
+// Created          : 10-13-2014
+//
+// Last Modified By : qd01
+// Last Modified On : 09-29-2014
+// ***********************************************************************
+// <copyright file="HttpConfiguration.cs" company="Microsoft">
+//     Copyright (c) Microsoft. All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
 
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -64,6 +76,11 @@ namespace System.Web.Http
             ParameterBindingRules = DefaultActionValueBinder.GetDefaultParameterBinders();
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="HttpConfiguration"/> class.
+        /// </summary>
+        /// <param name="configuration">The configuration.</param>
+        /// <param name="settings">The settings.</param>
         private HttpConfiguration(HttpConfiguration configuration, HttpControllerSettings settings)
         {
             _routes = configuration.Routes;

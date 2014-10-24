@@ -7,6 +7,11 @@ using System.Reflection;
 
 namespace System.Web.Mvc
 {
+    /// <summary>
+    /// //http://msdn.microsoft.com/zh-cn/library/system.reflection.icustomattributeprovider_methods(v=vs.80).aspx
+    /// 
+    /// 
+    /// </summary>
     public abstract class ControllerDescriptor : ICustomAttributeProvider, IUniquelyIdentifiable
     {
         private readonly Lazy<string> _uniqueId;

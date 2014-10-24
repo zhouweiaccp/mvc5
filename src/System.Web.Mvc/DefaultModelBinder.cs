@@ -53,8 +53,8 @@ namespace System.Web.Mvc
             // validation
             if (OnModelUpdating(controllerContext, newBindingContext))
             {
-                BindProperties(controllerContext, newBindingContext);
-                OnModelUpdated(controllerContext, newBindingContext);
+                BindProperties(controllerContext, newBindingContext);//在此方法内部会遍历PropertyDescriptor集合类型（图4中显示PropertyDescriptorCollection是不足的地方），正如大家所看到的一样，
+                OnModelUpdated(controllerContext, newBindingContext);//model本身验证
             }
         }
 
@@ -578,6 +578,13 @@ namespace System.Web.Mvc
             return true;
         }
 
+        /// <summary>
+        /// Sets the property.真正执行验证的
+        /// </summary>
+        /// <param name="controllerContext">The controller context.</param>
+        /// <param name="bindingContext">The binding context.</param>
+        /// <param name="propertyDescriptor">The property descriptor.</param>
+        /// <param name="value">The value.</param>
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "We're recording this exception so that we can act on it later.")]
         protected virtual void SetProperty(ControllerContext controllerContext, ModelBindingContext bindingContext, PropertyDescriptor propertyDescriptor, object value)
         {
